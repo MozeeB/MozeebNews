@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imageNewsItemView"
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="10dp"
+                tools:background="@color/colorPrimary"
+                android:contentDescription="@string/image_news"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/titleNewsItemView"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:text="@string/title"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/imageNewsItemView"
+                app:layout_constraintTop_toTopOf="@+id/imageNewsItemView" />
+
+            <TextView
+                android:id="@+id/descriptionNewsItemView"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxLines="4"
+                android:text="@string/description"
+                android:textSize="12sp"
+                app:layout_constraintBottom_toBottomOf="@+id/imageNewsItemView"
+                app:layout_constraintEnd_toEndOf="@+id/titleNewsItemView"
+                app:layout_constraintStart_toStartOf="@+id/titleNewsItemView"
+                app:layout_constraintTop_toBottomOf="@+id/titleNewsItemView" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.cardview.widget.CardView>
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Detik Clone</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title">Daftar Harga HP Unggulan Minus Apple Rp 2 Jutaan: Samsung Galaxy, Xioami Redmi, OPPO, Vivo, Realme - Lamongan Today - Pikiran Rakyat</string>
+    <string name="description">Harga HP unggulan minus Apple Rp 2 Jutaan</string>
+    <string name="image_news">image news</string>
+    <string name="author">Nugroho</string>
+    <string name="date">020-10-06T17:11:58Z</string>
+    <string name="content">LAMONGAN TODAY - HP Samsung, Xiaomi, OPPO, Vivo hingga Realme ramai merambah pasar HP di Indonesia dengan harga Rp 2 jutaan, kecuali Apple.r\nBukan tanpa alasan, selain banyaknya peminat di rentang ha…</string>
+    <string name="app_title">Mozeeb News</string>
+    <string name="detail">Detail</string>
+    <string name="image_detail">image detail</string>
+    <string name="loading">Loading...</string>
+</resources>
